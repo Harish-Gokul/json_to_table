@@ -48,3 +48,7 @@ function generate_rows(data) {
     table_containter.appendChild(div_row);
   });
 }
+
+function scroll_table_to_right() {
+  table_containter.scroll(table_containter.offsetWidth, 0);
+}
